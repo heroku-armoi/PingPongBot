@@ -6,8 +6,12 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-  if (message.content === 'ping') {
-    message.reply('pong');
+  if (message.content === 'Բարլուս') {
+    message.reply('Բարլուս իմ թագավոր ախպեր');
+  } else if (message.content === 'Ինչ կա՞'){
+    message.reply('Բան չէ եղս դու ասա');
+  } else {
+    message.reply('Մեռնեմ քեզ նորմալ բան ասա հասկանանք');
   }
 });
 
